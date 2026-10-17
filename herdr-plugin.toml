@@ -1,0 +1,12 @@
+id = "doggy-drawer"
+name = "doggy-drawer"
+version = "0.1.0"
+min_herdr_version = "0.9.5"
+description = "Read-only Code Puppy command inspector"
+platforms = ["windows", "linux", "macos"]
+
+[[panes]]
+id = "inspector"
+title = "doggy-drawer (read only)"
+placement = "split"
+command = ["uv", "run", "--frozen", "doggy-drawer"]
